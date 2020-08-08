@@ -10,6 +10,7 @@
 
 ## HINTs
 **Windows** 
+
 Update server name in "hosts" file at "C:\Windows\System32\drivers\etc"
 ```sh
 127.0.0.1 web.local admin.local
