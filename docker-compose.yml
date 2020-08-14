@@ -54,9 +54,11 @@ services:
         volumes: 
             - ./src:/var/www
             - ./containers/nginx:/etc/nginx/conf.d
+            - ./storage/certs:/etc/nginx/certs
         networks: 
             - janenetwork
         depends_on:
             - php 
             - mysql
             - phpmyadmin
+#        command: bash -c "/var/www/openssl.sh"

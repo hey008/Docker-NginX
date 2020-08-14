@@ -1,1 +1,1 @@
-<?php echo "APP: Web";
+<?php echo "APP: Web"; phpinfo();
