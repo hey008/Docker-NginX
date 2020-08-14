@@ -7,6 +7,7 @@
 ## Default URL
 - web.local
 - admin.local
+- dbadmin.local
 
 ## Open SSL command
 ```sh
